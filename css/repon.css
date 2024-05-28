@@ -1,0 +1,112 @@
+/* tablet */
+@media  (max-width:1024px) {
+    .l-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .l-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .cl-item img {
+        max-height: 450px;
+        width: 100%;
+        object-fit: cover;
+        object-position:0 29%;
+    }
+    .cart-left-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-card {
+        flex-wrap: wrap;
+    }
+    .card-left {
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    /* lỗi trình duyệt nè */
+    .card-right {
+        margin: 0;
+        padding: 0px;
+    }
+    /* .slide-body-content {
+
+    } */
+    .logoslide {
+        width: 70px !important; 
+    }
+    .slide-title {
+        font-size: 20px !important;
+        line-height: unset !important;
+    }
+    .slide-info p {
+        margin: 8px 0;
+    }
+    .slide-btn {
+        display: inline-block;
+        margin: 10px 0 0 0;
+        padding: 6px 10px;
+    font-size: 12px;
+    }
+    @media (max-width: 810px) {
+        .l-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    /*  */
+}   
+@media (max-width:640px) {
+    .c-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    html {
+        overflow-x:hidden ;
+    }
+    body {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .nav-list {
+        display: none;
+    }
+    .content {
+        max-width: calc(100% - 20px);
+    }
+    .header-top ul {
+        justify-content: unset;
+    }
+    .header-top ul li a {
+        padding: 8px 6px;
+    }
+    .foot-row {
+        margin: 0;
+    }
+    .foot-col-item {
+        padding: 0;
+    }
+    .foot-icon {
+        justify-content: space-around;
+    }
+    .foot-col-item:last-child {
+        margin-top: 20px;
+    }
+    .header-icon {
+        display: none;
+    }
+    
+    
+    /* .nav-global {
+        justify-content: space-between;
+    } */
+}
+
